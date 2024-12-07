@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthcare App</title>
+  <!-- Link to your custom styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Healthcare App</h1>
+
+  <!-- Chat System -->
+  <div id="chat">
+    <h2>Chat System</h2>
+    <input type="text" id="chatMessage" placeholder="Type a message">
+    <button id="sendMessage">Send Message</button>
+    <ul id="messages"></ul>
+  </div>
+
+  <!-- Video Consultation -->
+  <div id="video-call">
+    <h2>Video Consultation</h2>
+    <button id="startCall">Start Video Call</button>
+    <video id="my-video" autoplay></video>
+    <video id="doctor-video" autoplay></video>
+  </div>
+
+  <!-- Include Socket.IO for real-time communication -->
+  <script src="/socket.io/socket.io.js"></script>
+
+  <!-- Include your frontend logic -->
+  <script src="app.js"></script>
+</body>
+</html>

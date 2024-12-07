@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#chat {
+  margin-bottom: 20px;
+}
+
+#chat input {
+  width: 300px;
+  padding: 10px;
+}
+
+#chat button {
+  padding: 10px;
+}
+
+#video-call {
+  margin-top: 20px;
+}
+
+#video-call video {
+  width: 300px;
+  height: 200px;
+  margin-right: 20px;
+}
